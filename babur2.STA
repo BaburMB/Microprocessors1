@@ -1,0 +1,49 @@
+
+ROM used:   150/8192 (2%)
+            150/8192 (2%) including unused fragments
+
+            0.2 Average locations per line
+            5.2 Average locations per statement
+
+RAM used:   8/368 (2%) at main() level
+            11/368 (3%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   55    29 100  babur2.c
+  639     0   0  C:\Program Files\PICC\Devices\16f877.h
+----- -----
+  694    29 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21  14    1             @delay_ms1
+0     93  62    1   789  7.2  main
+0     32  21    6             @WRITEBITA
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              29
+    Comments                111
+    Volume (V)              796
+    Difficulty (D)          6.9
+    Effort to implement (E) 5488
+    Time to implement (T)   5 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   3
+    Maintainability (MI)    52
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   146  1898  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
